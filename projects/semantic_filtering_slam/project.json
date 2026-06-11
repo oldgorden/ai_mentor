@@ -1,0 +1,251 @@
+{
+  "name": "semantic_filtering_slam",
+  "title": "语义分割辅助的动态环境SLAM点云过滤",
+  "idea_file": "data/ideas/semantic_filtering_slam.json",
+  "status": "active",
+  "created_at": 1780951620.4017088,
+  "updated_at": 1780951620.4028177,
+  "attempts": [
+    {
+      "path": "experiments/2026-06-06_00-12-24_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4020903,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_07-22-22_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.40212,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_09-50-42_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4021316,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_14-42-51_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4021428,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_14-46-02_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4021504,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_14-57-30_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4021585,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_15-58-49_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.402163,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_17-35-12_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4021673,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_17-36-35_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.402173,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_18-31-14_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4021776,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-06_19-33-16_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4021819,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-07_00-22-27_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.402186,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-07_00-26-07_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4021904,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_00-51-27_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4021947,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_00-55-50_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4022005,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_00-56-23_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.402205,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_00-56-51_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4022105,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-00-38_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4022152,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-05-17_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4022193,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-07-45_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4022233,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-15-32_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.402228,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-21-33_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4022326,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-31-13_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4022367,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-37-34_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.402241,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-44-12_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.402245,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-50-50_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4022498,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    },
+    {
+      "path": "experiments/2026-06-08_01-55-23_semantic_filtering_slam_attempt_0",
+      "timestamp": 1780951620.4022539,
+      "status": "running",
+      "notes": "",
+      "best_metric": 0.0,
+      "stage_completed": 0
+    }
+  ],
+  "tags": [
+    "SLAM",
+    "semantic_segmentation",
+    "dynamic_filtering",
+    "edge_deployment"
+  ],
+  "notes": "",
+  "goal": "研究轻量级语义分割模型对SLAM动态点过滤的有效性，验证分割IoU与SLAM质量的非线性关系",
+  "target_venue": "ICBINB Workshop @ ICLR 2025",
+  "page_limit": 4,
+  "paper_reviews": [
+    {
+      "timestamp": 1780951620.4028153,
+      "reviewer": "ai_mentor",
+      "severity": "critical",
+      "issues": [
+        "页数超标: 10页 vs 4页目标",
+        "全是合成实验: 128x128噪声图, 无真实SLAM系统",
+        "无形式化数学定义: DPRR/MCE缺少公式",
+        "无统计显著性: 仅3个序列, 无误差棒"
+      ],
+      "summary": "写作质量好, 核心信息有价值, 但实验基础严重不足"
+    }
+  ],
+  "config": {}
+}

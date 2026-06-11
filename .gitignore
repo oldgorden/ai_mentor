@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Experiments (large, generated)
+experiments/
+
+# Logs
+mentor/logs/
+mentor/mentor.log
+/tmp/
+
+# Runtime state (generated at runtime, not needed for setup)
+mentor/config.local.json
+start_mentor.local.sh
+mentor/checkpoint.json
+mentor/*_kb.json
+mentor/temporary_kb*.json
+mentor/temporary_kb_index.json
+mentor/student_*_idea.json
+mentor/depth_completion_agent_idea.json
+mentor/rdk_agent_idea.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+*.egg-info/
+dist/
+build/
+*.bak

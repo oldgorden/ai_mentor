@@ -1,0 +1,70 @@
+{
+  "providers": {
+    "custom": {
+      "api_key": "YOUR_MIMO_API_KEY",
+      "base_url": "https://token-plan-cn.xiaomimimo.com/v1"
+    },
+    "xfyun": {
+      "api_key": "YOUR_XFYUN_API_KEY",
+      "base_url": "https://maas-coding-api.cn-huabei-1.xf-yun.com/v2"
+    },
+    "semantic_scholar": {
+      "api_key": "YOUR_S2_API_KEY"
+    }
+  },
+  "group_name": "research_team",
+  "event_routing": {
+    "student_exit": "chief_mentor",
+    "student_stuck": "chief_mentor",
+    "new_node": "code_mentor",
+    "context_overflow": "chief_mentor",
+    "manual": "chief_mentor"
+  },
+  "members": [
+    {
+      "name": "chief_mentor",
+      "role": "大导师，统筹所有决策，做最终裁决",
+      "permissions": ["*"],
+      "confidence": 1.0,
+      "model": "xfyun/astron-code-latest",
+      "prompt_file": "chief.md"
+    },
+    {
+      "name": "code_mentor",
+      "role": "代码导师，负责代码审查和调试",
+      "permissions": ["student:*", "research:*", "knowledge:*"],
+      "confidence": 0.9,
+      "model": "custom/mimo-v2.5-pro",
+      "prompt_file": "code.md"
+    },
+    {
+      "name": "reasoning_mentor",
+      "role": "推理导师，负责逻辑分析和假设验证",
+      "permissions": ["student:read", "research:*", "knowledge:*"],
+      "confidence": 0.8,
+      "model": "custom/mimo-v2.5-pro",
+      "prompt_file": "reasoning.md"
+    },
+    {
+      "name": "multimodal_mentor",
+      "role": "多模态导师，负责文献检索和图表分析",
+      "permissions": ["student:read", "research:*", "knowledge:*"],
+      "confidence": 0.8,
+      "model": "custom/mimo-v2.5-pro",
+      "prompt_file": "multimodal.md"
+    }
+  ],
+  "constraints": {
+    "max_students": 1,
+    "max_restarts_per_student": 5,
+    "check_interval": 30,
+    "stuck_threshold": 8
+  },
+  "student_config": {
+    "model": "custom/mimo-v2.5-pro",
+    "max_iters": 30,
+    "max_students": 1,
+    "starter_code": "thermal_budget_starter.py"
+  },
+  "ideas_file": "data/ideas/quadruped_locomotion.json"
+}

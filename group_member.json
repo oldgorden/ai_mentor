@@ -1,0 +1,85 @@
+{
+  "group_name": "research_team",
+
+  "members": [
+    {
+      "name": "chief_mentor",
+      "role": "大导师，统筹所有决策，做最终裁决",
+      "member_type": "mentor",
+      "permissions": ["*"],
+      "confidence": 1.0,
+      "model": "custom/mimo-v2.5-pro",
+      "max_tokens": 32768,
+      "temperature": 0.4,
+      "prompt_file": "chief.md"
+    },
+    {
+      "name": "code_mentor",
+      "role": "代码导师，负责代码审查和调试",
+      "member_type": "mentor",
+      "permissions": ["experiment:*", "research:*", "knowledge:*", "journal:*"],
+      "confidence": 0.9,
+      "model": "custom/mimo-v2.5-pro",
+      "max_tokens": 32768,
+      "temperature": 0.4,
+      "prompt_file": "code.md"
+    },
+    {
+      "name": "reasoning_mentor",
+      "role": "推理导师，负责逻辑分析和假设验证",
+      "member_type": "mentor",
+      "permissions": ["experiment:read", "research:*", "knowledge:*", "journal:*", "review:*"],
+      "confidence": 0.8,
+      "model": "custom/mimo-v2.5-pro",
+      "max_tokens": 16384,
+      "temperature": 0.5,
+      "prompt_file": "reasoning.md"
+    },
+    {
+      "name": "multimodal_mentor",
+      "role": "多模态导师，负责文献检索和图表分析",
+      "member_type": "mentor",
+      "permissions": ["experiment:read", "research:*", "knowledge:*", "journal:*", "literature:*", "review:*"],
+      "confidence": 0.8,
+      "model": "custom/mimo-v2.5",
+      "max_tokens": 8192,
+      "temperature": 0.4,
+      "prompt_file": "multimodal.md"
+    },
+    {
+      "name": "researcher_postgrad",
+      "role": "实验研究生，负责做实验、调参、跑代码",
+      "member_type": "postgrad",
+      "permissions": ["experiment:*", "literature:*", "writing:*", "journal:*", "knowledge:*", "research:*"],
+      "confidence": 0.7,
+      "model": "custom/mimo-v2.5-pro",
+      "max_tokens": 32768,
+      "temperature": 0.7,
+      "prompt_file": "researcher.md"
+    },
+    {
+      "name": "writer_postgrad",
+      "role": "写作研究生，负责撰写论文和生成图表",
+      "member_type": "postgrad",
+      "permissions": ["writing:*", "literature:*", "journal:*", "knowledge:*", "research:read"],
+      "confidence": 0.7,
+      "model": "custom/mimo-v2.5-pro",
+      "max_tokens": 128000,
+      "temperature": 0.7,
+      "prompt_file": "writer.md"
+    },
+    {
+      "name": "reviewer_postgrad",
+      "role": "自审研究生，负责审查论文质量和图表一致性",
+      "member_type": "postgrad",
+      "permissions": ["review:*", "journal:*", "knowledge:*", "literature:*", "research:read"],
+      "confidence": 0.7,
+      "model": "custom/mimo-v2.5",
+      "max_tokens": 16384,
+      "temperature": 0.5,
+      "prompt_file": "reviewer.md"
+    }
+  ],
+
+  "ideas_file": "data/ideas/semantic_filtering_slam.json"
+}

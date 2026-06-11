@@ -1,0 +1,1934 @@
+[
+  {
+    "id": "consensus_1780784827",
+    "category": "consensus",
+    "summary": "我将以大导师身份，严格遵循\"诊断优先，验证驱动\"原则，统筹所有导师意见，做出最终科研决策。\n\n---\n\n## **Step 1: 分析各方意见**\n\n### 各导师核心观点\n\n| 导师 | 核心推荐 | 置信度 | 关键行动 |\n|:---|:---|:---|:---|\n| **multimodal_mentor** | 采纳\"基线优先·诊断驱动·三层验证\"法，核心为Karpathy式单batc",
+    "importance": 5,
+    "tags": [
+      "consensus",
+      "meeting"
+    ],
+    "index": 0
+  },
+  {
+    "id": "failure_1780784586",
+    "category": "failure",
+    "summary": "节点6: The execution output shows minimal information (\"Using device: cuda\" and \"Execution time: a moment seconds\"), which is insufficient to confirm success",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 1
+  },
+  {
+    "id": "failure_1780784542",
+    "category": "failure",
+    "summary": "节点5: **Bug: `trust_remote_code` parameter is deprecated/removed in the `datasets` library.**\n\nThe execution fails because `load_dataset()` calls use `trust",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 2
+  },
+  {
+    "id": "failure_1780784511",
+    "category": "failure",
+    "summary": "节点4: The execution output is incomplete - only \"Using device: cuda\" is printed before the script appears to have terminated. The expected outputs (dataset ",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 3
+  },
+  {
+    "id": "failure_1780784472",
+    "category": "failure",
+    "summary": "节点3: The execution output is incomplete and shows signs of a failure. The code trains neural networks for 30 epochs on 3 different datasets, which should p",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 4
+  },
+  {
+    "id": "failure_1780784431",
+    "category": "failure",
+    "summary": "节点2: **Bug:** Spatial dimension mismatch in SemanticFilterNet's U-Net decoder at line 298 (`d3 = self.dec3(torch.cat([d3, e1], dim=1))`). \n\n**Root Cause:**",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 5
+  },
+  {
+    "id": "failure_1780784393",
+    "category": "failure",
+    "summary": "节点1: The execution failed with two issues:\n\n1. **API Deprecation Error**: The `trust_remote_code=True` parameter is no longer supported in the newer versio",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 6
+  },
+  {
+    "id": "success_1780784393",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'validation loss', 'lower_is_better': True, 'description",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 7
+  },
+  {
+    "id": "consensus_1780784027",
+    "category": "consensus",
+    "summary": "我将作为大导师，严格遵循\"诊断优先，验证驱动\"原则，统筹所有导师意见，做出最终科研决策。\n\n---\n\n## **Step 1: 分析各方意见**\n\n### 各导师核心观点\n\n| 导师 | 核心推荐 | 置信度 | 关键行动 |\n|:---|:---|:---|:---|\n| **critical_mentor** | 立即停止所有实验，运行极简玩具训练循环验证基础功能 | 0.9 | 创建`tes",
+    "importance": 5,
+    "tags": [
+      "consensus",
+      "meeting"
+    ],
+    "index": 8
+  },
+  {
+    "id": "failure_1780783754",
+    "category": "failure",
+    "summary": "节点3: **Critical Bug: Map Consistency Metric is 0.000 for ALL datasets**\n\nThe `compute_map_quality_metrics` function has a coordinate system mismatch:\n- `tr",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 9
+  },
+  {
+    "id": "failure_1780783703",
+    "category": "failure",
+    "summary": "节点2: The experiment has multiple issues:\n\n1. **Zero Ghost Point Reduction Bug**: The semantic filtering model is not actually filtering any dynamic points.",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 10
+  },
+  {
+    "id": "failure_1780783661",
+    "category": "failure",
+    "summary": "节点1: Bug: RuntimeError due to tensor non-contiguity after permute operation. In the `train_segmentation_model` function (line 394), `outputs.view(-1, nc)` ",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 11
+  },
+  {
+    "id": "failure_1780783621",
+    "category": "failure",
+    "summary": "节点0: TypeError: dtype mismatch between numpy float64 and torch.FloatTensor (which expects float32). The SyntheticSLAMDataset generates point clouds as nump",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 12
+  },
+  {
+    "id": "consensus_1780783267",
+    "category": "consensus",
+    "summary": "我将作为大导师，严格遵循\"诊断优先，验证驱动\"原则，统筹所有导师意见，做出最终科研决策。\n\n---\n\n## **Step 1: 分析各方意见**\n\n### 各导师核心观点\n\n| 导师 | 核心推荐 | 置信度 | 关键行动 |\n|:---|:---|:---|:---|\n| **reasoning_mentor** | 暂停所有优化，执行零成本修复+最小可行基线验证 | 0.9 | 4项代码修复→",
+    "importance": 5,
+    "tags": [
+      "consensus",
+      "meeting"
+    ],
+    "index": 13
+  },
+  {
+    "id": "failure_1780781784",
+    "category": "failure",
+    "summary": "节点2: The experiment has multiple issues:\n\n1. **Zero Ghost Point Reduction Bug**: The semantic filtering model is not actually filtering any dynamic points.",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 14
+  },
+  {
+    "id": "failure_1780781741",
+    "category": "failure",
+    "summary": "节点1: Bug: RuntimeError due to tensor non-contiguity after permute operation. In the `train_segmentation_model` function (line 394), `outputs.view(-1, nc)` ",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 15
+  },
+  {
+    "id": "failure_1780781697",
+    "category": "failure",
+    "summary": "节点0: TypeError: dtype mismatch between numpy float64 and torch.FloatTensor (which expects float32). The SyntheticSLAMDataset generates point clouds as nump",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 16
+  },
+  {
+    "id": "consensus_1780781342",
+    "category": "consensus",
+    "summary": "我将作为大导师，统筹所有导师意见，进行逐步推理并做出最终科研决策。\n\n---\n\n## **Step 1: 分析各方意见**\n\n### 各导师核心观点\n\n| 导师 | 核心推荐 | 置信度 | 关键行动 |\n|:---|:---|:---|:---|\n| **multimodal_mentor** | 执行\"文献级基线验证三步法\" | 0.9 | Phase 1修复数据流水线(MinkowskiEn",
+    "importance": 5,
+    "tags": [
+      "consensus",
+      "meeting"
+    ],
+    "index": 17
+  },
+  {
+    "id": "failure_1780781113",
+    "category": "failure",
+    "summary": "节点1: Bug: RuntimeError due to tensor non-contiguity after permute operation. In the `train_segmentation_model` function (line 394), `outputs.view(-1, nc)` ",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 18
+  },
+  {
+    "id": "failure_1780781067",
+    "category": "failure",
+    "summary": "节点0: TypeError: dtype mismatch between numpy float64 and torch.FloatTensor (which expects float32). The SyntheticSLAMDataset generates point clouds as nump",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 19
+  },
+  {
+    "id": "mentor_context_snapshot_1780784852",
+    "category": "mentor_context_snapshot",
+    "summary": "导师上下文压缩，约210894tokens",
+    "importance": 3,
+    "tags": [
+      "compressed",
+      "mentor"
+    ],
+    "index": 20
+  },
+  {
+    "id": "success_1780785038",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'training loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 21
+  },
+  {
+    "id": "failure_1780785038",
+    "category": "failure",
+    "summary": "节点1: The code executed successfully with good results (DOFP: 0.9986, proper convergence). However, it FAILS to meet the sub-stage requirements: \"Introduce ",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 22
+  },
+  {
+    "id": "failure_1780785066",
+    "category": "failure",
+    "summary": "节点2: 1. **Missing HuggingFace datasets**: The sub-stage goals explicitly require \"Introduce TWO more new datasets from HuggingFace test the model\" but NO H",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 23
+  },
+  {
+    "id": "success_1780785105",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'validation loss', 'lower_is_better': True, 'description",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 24
+  },
+  {
+    "id": "failure_1780785105",
+    "category": "failure",
+    "summary": "节点4: **Bug 1 (Crash): `TypeError: object of type 'numpy.float64' has no len()`**\n\nAt line ~497-499 in the visualization section, the code tries to check `l",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 25
+  },
+  {
+    "id": "success_1780785141",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Loss', 'lower_is_better': True, 'descri",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 26
+  },
+  {
+    "id": "success_1780785141",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'training loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 27
+  },
+  {
+    "id": "success_1780785141",
+    "category": "success",
+    "summary": "节点7: 成功，指标={'value': {'metric_names': [{'metric_name': 'training loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 28
+  },
+  {
+    "id": "failure_1780785141",
+    "category": "failure",
+    "summary": "节点8: The bug is a spatial dimension mismatch between the model output and the segmentation labels. Input images are 64x64, but after the encoder (with MaxP",
+    "importance": 2,
+    "tags": [
+      "bug",
+      "student_semantic_filtering_slam"
+    ],
+    "index": 29
+  },
+  {
+    "id": "success_1780788417",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 30
+  },
+  {
+    "id": "success_1780788417",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 31
+  },
+  {
+    "id": "success_1780788417",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 32
+  },
+  {
+    "id": "success_1780788417",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 33
+  },
+  {
+    "id": "success_1780788417",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 34
+  },
+  {
+    "id": "success_1780788417",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 35
+  },
+  {
+    "id": "success_1780788417",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 36
+  },
+  {
+    "id": "success_1780788601",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 37
+  },
+  {
+    "id": "success_1780788601",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 38
+  },
+  {
+    "id": "success_1780788601",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 39
+  },
+  {
+    "id": "success_1780788601",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 40
+  },
+  {
+    "id": "success_1780788601",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 41
+  },
+  {
+    "id": "success_1780788601",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 42
+  },
+  {
+    "id": "success_1780788601",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 43
+  },
+  {
+    "id": "success_1780788704",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 44
+  },
+  {
+    "id": "success_1780788704",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 45
+  },
+  {
+    "id": "success_1780788704",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 46
+  },
+  {
+    "id": "success_1780788704",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 47
+  },
+  {
+    "id": "success_1780788704",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 48
+  },
+  {
+    "id": "success_1780788704",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 49
+  },
+  {
+    "id": "success_1780788704",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 50
+  },
+  {
+    "id": "success_1780799808",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 51
+  },
+  {
+    "id": "success_1780799808",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 52
+  },
+  {
+    "id": "success_1780799808",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 53
+  },
+  {
+    "id": "success_1780799808",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 54
+  },
+  {
+    "id": "success_1780799808",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 55
+  },
+  {
+    "id": "success_1780799808",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 56
+  },
+  {
+    "id": "success_1780799808",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 57
+  },
+  {
+    "id": "success_1780807313",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 58
+  },
+  {
+    "id": "success_1780807313",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 59
+  },
+  {
+    "id": "success_1780807313",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 60
+  },
+  {
+    "id": "success_1780807313",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 61
+  },
+  {
+    "id": "success_1780807313",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 62
+  },
+  {
+    "id": "success_1780807313",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 63
+  },
+  {
+    "id": "success_1780807313",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 64
+  },
+  {
+    "id": "success_1780814818",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 65
+  },
+  {
+    "id": "success_1780814818",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 66
+  },
+  {
+    "id": "success_1780814818",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 67
+  },
+  {
+    "id": "success_1780814818",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 68
+  },
+  {
+    "id": "success_1780814818",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 69
+  },
+  {
+    "id": "success_1780814818",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 70
+  },
+  {
+    "id": "success_1780814818",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 71
+  },
+  {
+    "id": "success_1780818721",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 72
+  },
+  {
+    "id": "success_1780818721",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 73
+  },
+  {
+    "id": "success_1780818721",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 74
+  },
+  {
+    "id": "success_1780818721",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 75
+  },
+  {
+    "id": "success_1780818721",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 76
+  },
+  {
+    "id": "success_1780818721",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 77
+  },
+  {
+    "id": "success_1780818721",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 78
+  },
+  {
+    "id": "success_1780819223",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 79
+  },
+  {
+    "id": "success_1780819223",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 80
+  },
+  {
+    "id": "success_1780819223",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 81
+  },
+  {
+    "id": "success_1780819223",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 82
+  },
+  {
+    "id": "success_1780819223",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 83
+  },
+  {
+    "id": "success_1780819223",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 84
+  },
+  {
+    "id": "success_1780819223",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 85
+  },
+  {
+    "id": "success_1780819672",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 86
+  },
+  {
+    "id": "success_1780819672",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 87
+  },
+  {
+    "id": "success_1780819672",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 88
+  },
+  {
+    "id": "success_1780819672",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 89
+  },
+  {
+    "id": "success_1780819672",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 90
+  },
+  {
+    "id": "success_1780819672",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 91
+  },
+  {
+    "id": "success_1780819672",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 92
+  },
+  {
+    "id": "success_1780819873",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 93
+  },
+  {
+    "id": "success_1780819873",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 94
+  },
+  {
+    "id": "success_1780819873",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 95
+  },
+  {
+    "id": "success_1780819873",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 96
+  },
+  {
+    "id": "success_1780819873",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 97
+  },
+  {
+    "id": "success_1780819873",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 98
+  },
+  {
+    "id": "success_1780819873",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 99
+  },
+  {
+    "id": "success_1780820365",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 100
+  },
+  {
+    "id": "success_1780820365",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 101
+  },
+  {
+    "id": "success_1780820365",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 102
+  },
+  {
+    "id": "success_1780820365",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 103
+  },
+  {
+    "id": "success_1780820365",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 104
+  },
+  {
+    "id": "success_1780820365",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 105
+  },
+  {
+    "id": "success_1780820365",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 106
+  },
+  {
+    "id": "success_1780821048",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 107
+  },
+  {
+    "id": "success_1780821048",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 108
+  },
+  {
+    "id": "success_1780821048",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 109
+  },
+  {
+    "id": "success_1780821048",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 110
+  },
+  {
+    "id": "success_1780821048",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 111
+  },
+  {
+    "id": "success_1780821049",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 112
+  },
+  {
+    "id": "success_1780821049",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 113
+  },
+  {
+    "id": "success_1780823013",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 114
+  },
+  {
+    "id": "success_1780823013",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 115
+  },
+  {
+    "id": "success_1780823013",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 116
+  },
+  {
+    "id": "success_1780823013",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 117
+  },
+  {
+    "id": "success_1780823013",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 118
+  },
+  {
+    "id": "success_1780823013",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 119
+  },
+  {
+    "id": "success_1780823013",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 120
+  },
+  {
+    "id": "success_1780823492",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 121
+  },
+  {
+    "id": "success_1780823492",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 122
+  },
+  {
+    "id": "success_1780823492",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 123
+  },
+  {
+    "id": "success_1780823492",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 124
+  },
+  {
+    "id": "success_1780823492",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 125
+  },
+  {
+    "id": "success_1780823492",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 126
+  },
+  {
+    "id": "success_1780823492",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 127
+  },
+  {
+    "id": "success_1780823529",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 128
+  },
+  {
+    "id": "success_1780823529",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 129
+  },
+  {
+    "id": "success_1780823529",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 130
+  },
+  {
+    "id": "success_1780823529",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 131
+  },
+  {
+    "id": "success_1780823529",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 132
+  },
+  {
+    "id": "success_1780823529",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 133
+  },
+  {
+    "id": "success_1780823529",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 134
+  },
+  {
+    "id": "success_1780823571",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 135
+  },
+  {
+    "id": "success_1780823572",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 136
+  },
+  {
+    "id": "success_1780823572",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 137
+  },
+  {
+    "id": "success_1780823572",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 138
+  },
+  {
+    "id": "success_1780823572",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 139
+  },
+  {
+    "id": "success_1780823572",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 140
+  },
+  {
+    "id": "success_1780823572",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 141
+  },
+  {
+    "id": "success_1780824697",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 142
+  },
+  {
+    "id": "success_1780824697",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 143
+  },
+  {
+    "id": "success_1780824697",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 144
+  },
+  {
+    "id": "success_1780824697",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 145
+  },
+  {
+    "id": "success_1780824697",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 146
+  },
+  {
+    "id": "success_1780824697",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 147
+  },
+  {
+    "id": "success_1780824697",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 148
+  },
+  {
+    "id": "success_1780825034",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 149
+  },
+  {
+    "id": "success_1780825034",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 150
+  },
+  {
+    "id": "success_1780825034",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 151
+  },
+  {
+    "id": "success_1780825034",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 152
+  },
+  {
+    "id": "success_1780825034",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 153
+  },
+  {
+    "id": "success_1780825034",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 154
+  },
+  {
+    "id": "success_1780825034",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 155
+  },
+  {
+    "id": "success_1780825611",
+    "category": "success",
+    "summary": "节点0: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 156
+  },
+  {
+    "id": "success_1780825611",
+    "category": "success",
+    "summary": "节点1: 成功，指标={'value': {'metric_names': [{'metric_name': 'Training Loss', 'lower_is_better': True, 'description':",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 157
+  },
+  {
+    "id": "success_1780825611",
+    "category": "success",
+    "summary": "节点2: 成功，指标={'value': {'metric_names': [{'metric_name': 'Test DPFR', 'lower_is_better': False, 'description': 'T",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 158
+  },
+  {
+    "id": "success_1780825611",
+    "category": "success",
+    "summary": "节点3: 成功，指标={'value': {'metric_names': [{'metric_name': 'Best Validation Dynamic Point Filtering Ratio (DPFR)', ",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 159
+  },
+  {
+    "id": "success_1780825611",
+    "category": "success",
+    "summary": "节点4: 成功，指标={'value': {'metric_names': [{'metric_name': 'Dynamic Point Filtering Ratio (DPFR)', 'lower_is_better",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 160
+  },
+  {
+    "id": "success_1780825611",
+    "category": "success",
+    "summary": "节点5: 成功，指标={'value': {'metric_names': [{'metric_name': 'Validation DPFR', 'lower_is_better': False, 'descriptio",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 161
+  },
+  {
+    "id": "success_1780825611",
+    "category": "success",
+    "summary": "节点6: 成功，指标={'value': {'metric_names': [{'metric_name': 'test accuracy', 'lower_is_better': False, 'description'",
+    "importance": 5,
+    "tags": [
+      "success",
+      "student_semantic_filtering_slam",
+      "verified_code"
+    ],
+    "index": 162
+  }
+]
