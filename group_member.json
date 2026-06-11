@@ -1,6 +1,14 @@
 {
   "group_name": "research_team",
 
+  "event_routing": {
+    "student_exit": "chief_mentor",
+    "student_stuck": "chief_mentor",
+    "new_node": "code_mentor",
+    "context_overflow": "chief_mentor",
+    "manual": "chief_mentor"
+  },
+
   "members": [
     {
       "name": "chief_mentor",
