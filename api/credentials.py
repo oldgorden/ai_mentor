@@ -1,11 +1,42 @@
-"""统一凭证源：config.local.json → config.json → 环境变量"""
+"""统一凭证源：.env → config.local.json → config.json → 环境变量"""
 import json
 import os
 from pathlib import Path
 from typing import Optional
 
 _MENTOR_DIR = Path(__file__).parent.parent / "mentor"
+_PROJECT_DIR = Path(__file__).parent.parent
 _CREDENTIALS: Optional[dict] = None
+_ENV_LOADED = False
+
+
+def _load_dotenv():
+    global _ENV_LOADED
+    if _ENV_LOADED:
+        return
+    _ENV_LOADED = True
+    env_file = _PROJECT_DIR / ".env"
+    if not env_file.exists():
+        return
+    try:
+        from dotenv import dotenv_values
+        values = dotenv_values(env_file, verbose=False)
+        for k, v in values.items():
+            if v is not None and k not in os.environ:
+                os.environ[k] = v
+    except ImportError:
+        with open(env_file) as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                if "=" not in line:
+                    continue
+                key, _, value = line.partition("=")
+                key = key.strip()
+                value = value.strip().strip("'\"")
+                if key and key not in os.environ and value:
+                    os.environ[key] = value
 
 
 def _load_config_file() -> dict:
@@ -23,6 +54,7 @@ def load_credentials() -> dict:
     if _CREDENTIALS is not None:
         return _CREDENTIALS
 
+    _load_dotenv()
     config = _load_config_file()
     creds = {}
 
