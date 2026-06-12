@@ -9,14 +9,26 @@ _PROJECT_DIR = Path(__file__).parent.parent
 _CREDENTIALS: Optional[dict] = None
 _ENV_LOADED = False
 
+_ENV_SEARCH_PATHS = [
+    Path.home() / ".config" / "ai_mentor" / ".env",
+    Path.home() / ".ai_mentor" / ".env",
+]
+
+
+def _resolve_env_file() -> Path | None:
+    for p in _ENV_SEARCH_PATHS:
+        if p.exists():
+            return p
+    return None
+
 
 def _load_dotenv():
     global _ENV_LOADED
     if _ENV_LOADED:
         return
     _ENV_LOADED = True
-    env_file = _PROJECT_DIR / ".env"
-    if not env_file.exists():
+    env_file = _resolve_env_file()
+    if env_file is None:
         return
     try:
         from dotenv import dotenv_values
@@ -103,11 +115,11 @@ def load_credentials() -> dict:
             continue
         if name not in creds:
             creds[name] = {}
-        creds[name].setdefault("api_key", api_key)
+        creds[name]["api_key"] = api_key
         if url_env:
             base_url = os.environ.get(url_env, "")
             if base_url:
-                creds[name].setdefault("base_url", base_url)
+                creds[name]["base_url"] = base_url
 
     # semantic scholar 单独处理
     s2_key = config.get("s2_api_key") or os.environ.get("S2_API_KEY", "")

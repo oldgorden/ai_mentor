@@ -1,19 +1,22 @@
 #!/bin/bash
 # 屏蔽 SIGTERM/SIGINT，让 mentor 真正后台运行
-# 用法: 在 .env 文件中配置密钥，然后运行此脚本
+# 密钥配置: ~/.config/ai_mentor/.env
 trap '' TERM INT
 
 cd "$(dirname "$0")"
 
-if [ ! -f .env ]; then
-    echo "错误: 未找到 .env 文件，请先复制模板并填入密钥："
-    echo "  cp .env.example .env"
-    echo "  vim .env"
+ENV_FILE="$HOME/.config/ai_mentor/.env"
+if [ ! -f "$ENV_FILE" ]; then
+    echo "错误: 未找到密钥文件 $ENV_FILE"
+    echo "请先创建："
+    echo "  mkdir -p ~/.config/ai_mentor"
+    echo "  cp .env.example \$ENV_FILE"
+    echo "  vim \$ENV_FILE"
     exit 1
 fi
 
 set -a
-source .env
+source "$ENV_FILE"
 set +a
 
 : "${CUSTOM_OPENAI_API_KEY:?请设置 CUSTOM_OPENAI_API_KEY}"

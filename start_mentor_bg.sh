@@ -2,9 +2,10 @@
 trap '' TERM INT
 cd /home/lk/ai_mentor
 
-if [ -f .env ]; then
+ENV_FILE="$HOME/.config/ai_mentor/.env"
+if [ -f "$ENV_FILE" ]; then
     set -a
-    source .env
+    source "$ENV_FILE"
     set +a
 fi
 

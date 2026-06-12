@@ -10,6 +10,10 @@
     },
     "semantic_scholar": {
       "api_key": "YOUR_S2_API_KEY"
+    },
+    "opencode-go": {
+      "api_key": "YOUR_OPENCODE_GO_API_KEY",
+      "base_url": "https://opencode.ai/zen/go/v1"
     }
   },
   "group_name": "research_team",
